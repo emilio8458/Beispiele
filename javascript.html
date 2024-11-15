@@ -1,0 +1,33 @@
+<head>
+<title>Zähl mit mir</title>
+<h1>Willkommen! Bienvenue! Welcome!</h1><br>
+Hier wird gezählt
+
+<script>
+
+Ziel=prompt("Hallo wie weit wollen wir zählen?");
+
+
+Runde=0
+zaehle();
+
+function zaehle(){
+
+if(Runde<Ziel){
+alert(Runde);
+Runde=Runde+1;
+zaehle();
+
+}
+}
+
+alert(Runde+" Wir haben unser Ziel erreicht");
+
+</script>
+
+</head>
+
+<body>
+</body>
+
+
