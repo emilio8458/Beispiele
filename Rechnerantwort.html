@@ -1,0 +1,59 @@
+<head>
+<title>Die Rechenmaschine</title>
+<h2>Hier wird für sie gerechnet!</h2><br>
+
+
+<script>
+Art=prompt("Mit welcher Art wollen sie rechnen? +,-,*,/")
+Zahl1=prompt("Geben sie die erste Zahl ein");
+Zahl2=prompt("Geben sie die zweite Zahl ein");
+    
+a=parseInt(Zahl1)
+b=parseInt(Zahl2)
+
+if(Art=="+"){
+plus()
+}
+if(Art=="-"){
+minus()
+}
+if(Art=="*"){
+mal()
+}
+if(Art=="/"){
+geteilt()
+}
+
+
+
+function plus(){
+Summe=a+b
+alert(a + " + " + b + "=" + Summe);
+}
+
+function minus(){
+Differenz=a-b
+alert(a + " - " + b + "=" + Differenz);
+}
+
+function geteilt(){
+Produkt=a/b
+alert(a + " * " + b + "=" + Produkt);
+}
+
+function mal(){
+Quotient=a*b
+alert(a + " : " + b + "=" + Quotient);
+}
+
+
+
+
+</script>
+
+</head>
+
+<body>
+</body>
+
+
